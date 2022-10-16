@@ -1,0 +1,19 @@
+console.log("hello world");
+let Students={
+              student_1 : {
+                             name: "user1",
+                             age: 13
+              },
+
+              student_2 : {
+                name: "user2",
+                age: 13
+              },
+              student_3 : {
+                name: "user3",
+                age: 13
+             }
+}
+let {student_1,student_2,student_3}=Students
+console.log(student_1,student_2,student_3)
+
